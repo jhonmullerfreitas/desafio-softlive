@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*azul #193A67 */
+/*vermelho #700F0F */
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.cabecalho{
+    font-size: 14px;
+
+    color: #700F0F;
+}
+
+.secao-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-principal-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90vw;
+    height: 20vh;
+}
+
+.logo-restaurante{
+    height: 90px;
+}
+
+.secao-principal-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90vw;
+    height: 40vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: 30vh;
+    color: #193A67;
+}
+
+span{
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+button{
+    border: 1px solid #193A67;
+    border-radius: 5px;
+    height: 20vh;
+    width: 25vw;
+
+    color: #700F0F;
+    margin: 5px auto;
+}
+
+@media(min-width: 768px){
+    .form{
+        width: 50vw;
+        font-size: 20px;
+        height: 40vh;
+    }
+    input{
+        height: 10vh;
+        font-size: 14px;
+    }
+
+    button{
+        height: 10vh;
+    }
+}
+
+@media(min-width: 1024px){
+
+    .form{
+        height: 70vh;
+        width: 30vw;
+    }
+
+    input{
+        height: 5vh;
+        font-size: 16px;
+    }
+
+    button{
+        height: 5vh;
+        width: 20vw;
+    }
+
+    button:hover{
+        cursor: pointer;
+        background-color: #86a2c8;
+    }
+}
