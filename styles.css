@@ -115,4 +115,17 @@ button{
         cursor: pointer;
         background-color: #86a2c8;
     }
+
+    .modal, .modal-error{
+        display: none;
+        height: 100px;
+        width: 200px;
+        border-radius: 5px;
+        background-color: #053a84;
+        color: whitesmoke;
+    }
+
+    .modal-fechar:hover{
+        cursor: pointer;
+    }
 }
