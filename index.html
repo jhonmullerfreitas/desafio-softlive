@@ -18,13 +18,21 @@
             </figure>
         </section>
         <section class="secao-principal-formulario">
+            <div class="modal">
+                <p>Cadastro realizado com sucesso!</p>
+                <div class="modal-fechar">X</div>
+            </div>
+            <div class="modal-error">
+                <p>Algo deu errado!</p>
+                <div class="modal-fechar-error">X</div>
+            </div>
             <form class="form" action="">
                 <label for="name">Nome completo</label>
                 <input id="name" type="text" required>
                 <label for="email">Email</label>
                 <input id="email" type="email" required>
                 <label for="password">Senha</label>
-                <input id="password" type="password">
+                <input id="password" type="password" required>
                 <span>Já é cadastrado? <a href="#">Clique aqui</a></span>
                 <button>Cadastrar</button>
             </form>
